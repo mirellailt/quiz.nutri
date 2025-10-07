@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(fruta.png) no-repeat center center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* controla o espaço entre os formulários */
+  margin-top: 50px;
+}
+
+fieldset {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  background: #fff;
+}
+
+fieldset::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 50px;
+  height: 50px;
+}
